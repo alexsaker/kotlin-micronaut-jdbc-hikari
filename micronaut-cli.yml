@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: jdbc.hikari
+---
+testFramework: spek
+sourceLanguage: kotlin

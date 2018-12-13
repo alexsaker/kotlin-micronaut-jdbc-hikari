@@ -1,0 +1,13 @@
+---
+micronaut:
+    application:
+        name: jdbc-hikari
+    server:
+        port: 8085
+---
+datasources:
+    default:
+        url: "jdbc:mysql://localhost:3306/micronaut?verifyServerCertificate=false&useSSL=true"
+        username: "root"
+        password: "root"
+        driverClassName: "com.mysql.jdbc.Driver"
